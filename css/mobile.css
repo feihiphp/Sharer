@@ -1,0 +1,236 @@
+.m-pb-col1{
+    display: none;
+}
+.m-col3-main{
+    display: none;
+}
+.te-area1-p{
+    display: none;
+}
+.te-area2-p{
+    display: none;
+}
+.m-col2-le{
+    display: none;
+}
+.m-col2-ri{
+    display: none;
+}
+@media screen and (min-width: 300px) and (max-width: 450px)  {
+    .pb-col1{
+        display: none;
+    }
+    .m-pb-col1{
+        display: block;
+    }
+    .m-pb-col1 img{
+        width: 100%;
+    }
+    .f-col-main {
+        overflow: hidden;
+        margin-top: 1rem;
+    }
+    .w1000{
+        width: 100%;
+    }
+    .col-mid-left{
+        width: 55%;
+    }
+    .col-mid-right {
+        width: 45%;
+    }
+    .col-mid-right p{
+        padding: 0 0.3rem;
+        font-size: 0.4rem;
+        font-weight: 450;
+    }
+    .join-share{
+        margin-top: 1.4rem;
+        display: inline-block;
+        color: #2884cf;
+        font-size: 0.6rem;
+        padding: 0.2rem 0.4rem;
+        width: 7rem;
+        border: 1px solid #2884cf;
+        border-radius: 0.5rem;   
+    }
+    .f-col2{
+        margin-top: 1.5rem;
+    }
+    .hrLine{
+        vertical-align:middle;
+        display:inline-block;
+        height: 2px;
+        background-color: #000;
+        width:4em;
+        margin-right: 10px;
+    }
+    .hr-le{
+        margin-right: 2rem;
+    }
+    .hr-ri{
+        margin-left: 2rem;
+    }
+    .hr-main{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .col2-le{
+        margin-right: 0px;
+    }
+    .col2-ri{
+        margin-left: 0px;
+    }
+    .col2-main ul li{
+        margin-bottom: 2.5rem;
+        width: 100%;
+        height: 10rem;
+    }
+    .cl-text{
+        margin: 0 20% 0 10%;
+    }
+    .col2-area-img{
+        top: 25px;
+        right: 10%;
+    }
+    .cl-text{
+        width: 70%;
+        padding: 50px 15px;
+        height: 100%;
+    }
+    .cl-text h1{
+        font-size: 1.5rem;
+        color: #fff;
+        line-height: 1.5rem;
+        font-weight: 400;
+    }
+    .cl-text p{
+        font-size: 0.75rem;
+        color: #fff;
+        font-weight: 400;
+    }
+    .f-col2-cont{
+        background: url(../img/mobile/m-col-bg.jpg) no-repeat 100%;
+    }
+    .m-col3-main{
+        display: block;
+    }
+    .f-col3-main{
+        display: none;
+    }
+    .m-col3-main img{
+        width: 100%;
+    }
+    .col4-top-text1{
+        width: 40%;
+        font-size: 1rem;
+    }
+    .col4-top-text2{
+        width: 40%;
+        font-size: 0.6rem;
+        margin-left: 10%;
+    }
+    .te-img img{
+        padding-top: 40px;
+        height: 6.5rem;
+    }
+    .te-area1-text h1{
+        font-size: 0.7rem;
+        padding-top: 40px;
+        line-height: 1rem;
+        color: #000;
+    }
+    .te-area2-text h1{
+        font-size: 0.7rem;
+        padding-top: 40px;
+        line-height: 1rem;
+        color: #000;
+    }
+    .te-area1-p{
+        display: block;
+        color: #666;
+        font-size: 0.55rem;
+        line-height: 1rem;
+    }
+    .te-area2-text{
+        width: 55%;
+    }
+    .te-area2-p{
+        display: block;
+        color: #666;
+        font-size: 0.55rem;
+        line-height: 1rem;
+    }
+    .te-aera-p{
+        display: none;
+    }
+    .te-area2-p{
+        display: block;
+        color: #666;
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+    .te-area1-text{
+        width: 55%;
+    }
+    .te-img{
+        width: 45%;
+    }
+    /* footer */
+    .f-col5{
+        background: url(../img/mobile/m-footer.jpg) no-repeat;
+        background-size:100%; 
+        width: 100%;
+    }
+    .info-title{
+        font-size: 10px;
+        font-weight: 400;
+        display: inline-block;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+    }
+    .f-info-l {
+        color: #fff;
+        font-size: 0.5rem;
+        text-align: right;
+        width: 30%;
+        line-height: 1rem;
+        float: left;
+    }
+    .f-info-in {
+        width: 50%;
+        background-color: rgba(188, 188, 188, 0.9);
+        border: 1px solid #fff;
+        padding: 0.1rem 0.2rem;
+        font-size: 0.5rem;
+        border-radius: 0.25rem;
+        color: #fff;
+        float: left;
+    }
+    .f-info-remark-text{
+        height: 2rem;
+        width: 50%;
+    }
+    .f-info-btn {
+        color: #2884cf;
+        margin-left: 42%;
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+        cursor: pointer;
+        background-color: rgba(188, 188, 188, 0.9);
+        border: 1px solid #fff;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.6rem;
+        width: 100px;
+        border-radius: 5px;
+    }
+    .m-col2-le{
+        display: block;
+    }
+    .m-col2-ri{
+        display: block;
+    }
+    .m-col2-old{
+        display: none;
+    }
+}
